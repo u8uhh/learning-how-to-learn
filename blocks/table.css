@@ -1,0 +1,37 @@
+  .table{
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    row-gap: 80px;
+    column-gap: 30px;
+    position: relative;
+    z-index: 2;
+    list-style-type: none;
+    padding-top: 80px;
+  }
+  
+  .table__text{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    height: 1.2px;
+    width: 100%;
+    color: #f2f2f2;
+    font-weight: normal;
+  }
+  
+  .table__heading{
+    padding: 0;
+    margin: 0;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+  
+  .table__cell{
+    width: 200px;
+    color: #fff;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr;
+    row-gap: 10px;
+  }

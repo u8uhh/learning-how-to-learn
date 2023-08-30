@@ -1,0 +1,7 @@
+.table__cell{
+    width: 200px;
+    color: #fff;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr;
+    row-gap: 10px;
+}
